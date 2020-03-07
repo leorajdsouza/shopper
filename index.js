@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 const cheerio = require("cheerio");
 const axios = require("axios");
 const puppeteer = require('puppeteer');
