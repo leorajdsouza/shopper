@@ -35,8 +35,8 @@ const getResults = async (keyword) => {
 
 
 app.get('/', async (req, res) => {
-    const result = await getResults();
-    res.send(result);
+
+    res.send("Hey there..");
 });
 
 app.get('/search/:keyword', async (req, res) => {
